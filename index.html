@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #empresa {
+            background-color:rgb(205, 166, 241);
+        }
+
+        .card-header {
+            background-color:rgb(205, 166, 241);
+        }
+
+        h3 {
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        footer {
+            margin-top: 70px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 id="empresa">* Arquitetura Criativa *</h1>
+        </header>
+        <div id="carousel-paisagem" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./images/CasaModerna.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Casa Conceitual</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/Arcos.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Amplitude</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/CasaAmericana.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Casa Tradicional</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/CasaConceito.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Curvas e Convergências</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/JanelaDesign.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Design Sobrio</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/Escada.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Escadaria</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-paisagem" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-paisagem" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-paisagem" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-paisagem" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-paisagem" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-paisagem" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel-paisagem" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carousel-paisagem" data-bs-slide-to="5"></button>
+            </div>
+        </div>
+        <section>
+            <h1> About Us</h1>
+            <p>Seja Bem-vindo ao nosso mundo encantador!</p>
+            <p>Nossa Proposta é oferecer uma experiência única de arquitetura e paisagismo, respeitando o meio ambiente e traduzindo as necessidades de nossos clientes de forma inovadora.</p>
+        </section>
+    </div>
+    <div class="container">
+        <h1>Conheça Nossos Departamentos</h1>
+        <div class="row">
+            <div class="col-4">
+                <article class="card">
+                    <header class="card-header">
+                        Viabilidade do Projeto
+                    </header>
+                    <img id="imagemcard" src="./images/estudo.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Estudo de Viabilidade</h4>
+                        <p class="card-text">
+                            O Estudo de Viabilidade avalia a adequação da infraestrutura, compreendendo a transformação dos espaços de modo a acolher de forma plena o que o projeto propõe. Para tanto, são traçadas premissas orientadoras que servirão como arcabouço referencial no processo de construção do projeto.
+                        </p>
+                        <a href="#" class="btn btn-secondary">Leia mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <header class="card-header">
+                        Desenvolvimento & Criação
+                    </header>
+                    <img id="imagemcard" src="./images/desenvolvCria.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Arquitetura Estrutural</h4>
+                        <p class="card-text">
+                            Atentos a compreensão da arte e seus processos, a criação passa por etapas que envolvem a percepção e sensibilidade do mundo. Suas formas, cores e texturas são criteriosamente avaliados e pensados de maneira imprimir no projeto a essência da proposta que se tem idealizado.
+                        </p>
+                        <a href="#" class="btn btn-secondary">Leia mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card">
+                    <header class="card-header">
+                        Interior & Design
+                    </header>
+                    <img id="imagemcard" src="./images/interiordesign.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Design de Interiores</h4>
+                        <p class="card-text">
+                            O design de interiores é um conjunto de técnicas que tem um objetivo comum: tornar a experiência de morar mais agradável, aconchegante e satisfatória. Pode parecer simples, mas a verdade é que existe um imenso estudo feito por trás que identifica e coloca em prática o desenho. 
+                        </p>
+                        <a href="#" class="btn btn-secondary">Leia mais</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Se interessou pelo nosso trabalho? Gostaria de agendar uma visita? Deseja ser um parceiro?</h3>
+        <h5>
+            Então te convido fazer contato. Estamos ansiosos para iniciar mais uma parceria de sucesso!!
+        </h5>
+        <br>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo-modal">
+            Deixe sua Mensagem
+        </button>
+        <div class="modal" id="exemplo-modal" data-bs-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Fale Conosco</h5>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <div class="container">
+                        <h2>Deixe sua mensagem</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label for="formControInput">Nome:</label>
+                                    <input type="text" class="form-control" id="formControInput" placeholder="Nome Completo">
+                                </div>                                
+                                <div class="form-group">
+                                    <label for="formControInputtel">Telefone:</label>
+                                    <input type="tel" class="form-control" id="formControInputtel" placeholder="(DDD) 0000-0000">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputEmail">E-mail:</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress2">Endereço:</label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCity">Cidade:</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputEstado">Estado:</label>
+                                    <select id="inputEstado" class="form-control">
+                                        <option selected>Escolher...</option>
+                                        <option value="AC">Acre</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="BA">Bahia</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="DF">Distrito Federal</option>
+                                        <option value="ES">Espírito Santo</option>
+                                        <option value="GO">Goiás</option>
+                                        <option value="MA">Maranhão</option>
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="PA">Pará</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="PR">Paraná</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="RN">Rio Grande do Norte</option>
+                                        <option value="RS">Rio Grande do Sul</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="SC">Santa Catarina</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="TO">Tocantins</option>
+                                    </select>
+                                </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputCEP">CEP</label>
+                                        <input type="text" class="form-control" id="inputCEP">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="textarea1">Mensagem</label>
+                                    <textarea class="form-control" id="textarea1" rows="7"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="formControlFile1">Anexe aqui um documento</label>
+                                    <input type="file" class="form-control-file" id="formControlFile1">
+                                </div>
+                                <br>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Enviar</button>
+                                </div>    
+                                </form>
+                        </div>
+                    </div>
+    </div>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="container container-flex">
+                <p>
+                    2023 &copy; Arquitetura Criativa - Todos os direitos reservados
+                </p>
+            </div>
+        </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoader', function() {
+            const modalExemplo = new bootstrap.Modal('#exemplo-modal');
+            setTimeout(function() {
+                modalExemplo.show();
+            }, 3000)
+        })
+    </script>
+</body>
+</html>
